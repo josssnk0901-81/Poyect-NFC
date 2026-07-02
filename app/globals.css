@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 0.75rem;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    -webkit-tap-highlight-color: transparent;
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+    /* Evita el rebote de scroll horizontal en móvil */
+    overflow-x: hidden;
+  }
+}
+
+@layer utilities {
+  /* Scroll horizontal sin barra visible (Tours, Galería, Servicios) */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  /* Safe-area helpers para sensación de app nativa */
+  .pb-safe {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  .pt-safe {
+    padding-top: env(safe-area-inset-top);
+  }
+}
+
+/* El mapa de Leaflet debe quedar por debajo de barras sticky/fijas */
+.leaflet-container {
+  z-index: 0;
+  font-family: inherit;
+  background: #e9e5df;
+}

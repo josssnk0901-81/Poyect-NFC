@@ -1,0 +1,301 @@
+{
+  "slug": "cabana-serendipia",
+  "nombre": "Cabaña Serendipia",
+  "descripcion": "Un refugio auténtico en el corazón de los Altos de Chiapas. Rodeado de pinos, flores y silencio. Diseñado para que desconectes del mundo y te reconectes contigo.",
+  "descripcionCorta": "Refugio auténtico en los Altos de Chiapas",
+  "calificacion": 4.9,
+  "totalResenas": 127,
+  "imagenHero": "https://picsum.photos/seed/cabin-hero/1200/800",
+  "imagenes": [
+    "https://picsum.photos/seed/bedroom-cozy/800/600",
+    "https://picsum.photos/seed/living-room/800/600",
+    "https://picsum.photos/seed/kitchen-wood/800/600",
+    "https://picsum.photos/seed/bathroom-spa/800/600",
+    "https://picsum.photos/seed/nature-pine/800/600",
+    "https://picsum.photos/seed/canyon-vista/800/600"
+  ],
+  "ubicacion": {
+    "direccion": "Calle Flor de Mayo 14, Barrio de Guadalupe",
+    "ciudad": "San Cristóbal de Las Casas",
+    "estado": "Chiapas",
+    "pais": "México",
+    "lat": 16.737,
+    "lng": -92.6376,
+    "googleMapsUrl": "https://maps.google.com/?q=16.7370,-92.6376",
+    "wazeUrl": "https://waze.com/ul?ll=16.7370,-92.6376&navigate=yes",
+    "descripcionComo": "Estamos a 10 minutos caminando del centro histórico. Desde el Andador Turístico, camina hacia el norte por Real de Guadalupe hasta llegar a la calle Flor de Mayo. La cabaña tiene un portón de madera color verde oscuro."
+  },
+  "contacto": {
+    "whatsapp": "529671234567",
+    "whatsappMensaje": "Hola, soy huésped de Cabaña Serendipia y necesito ayuda.",
+    "telefono": "+52 967 123 4567",
+    "email": "contacto@cabanaSerendipia.com",
+    "emergencias": "911",
+    "recepcionHorario": "Lunes a Domingo 8:00 am – 9:00 pm"
+  },
+  "checkIn": "15:00",
+  "checkOut": "11:00",
+  "wifi": {
+    "nombre": "SerendipiaCabana",
+    "contrasena": "chiapas2024",
+    "tipo": "WPA2",
+    "velocidad": "50 Mbps"
+  },
+  "reglamento": {
+    "reglas": [
+      "No fiestas ni eventos sin autorización previa",
+      "Respetar las áreas comunes y mantenerlas limpias",
+      "No mover el mobiliario sin autorización",
+      "Reportar cualquier daño inmediatamente",
+      "No compartir el acceso con personas no registradas"
+    ],
+    "mascotas": {
+      "permitido": true,
+      "detalle": "Aceptamos mascotas pequeñas y medianas. Costo adicional de $200 MXN por noche. El huésped es responsable de cualquier daño."
+    },
+    "fumar": {
+      "permitido": false,
+      "detalle": "Prohibido fumar dentro de la cabaña. Área designada disponible en el jardín exterior."
+    },
+    "ruido": "Ambiente tranquilo requerido en todo momento. Respetar el descanso de vecinos.",
+    "basura": "Separar basura en orgánica, inorgánica y reciclable. Bolsas de colores disponibles en la cocina.",
+    "horasQuietas": "22:00 – 08:00",
+    "capacidadMaxima": 4
+  },
+  "tours": [
+    {
+      "id": "tour-sumidero",
+      "nombre": "Cañón del Sumidero",
+      "descripcion": "Navega por las imponentes paredes de 1,000 metros del cañón más espectacular de Chiapas. Verás cocodrilos, monos araña y aves tropicales en su hábitat natural.",
+      "imagen": "https://picsum.photos/seed/canyon-vista/800/600",
+      "precio": 650,
+      "moneda": "MXN",
+      "duracion": "5 horas",
+      "nivel": "Fácil",
+      "whatsapp": "529671234567",
+      "reservaUrl": ""
+    },
+    {
+      "id": "tour-palenque",
+      "nombre": "Palenque + Agua Azul",
+      "descripcion": "Visita las ruinas mayas de Palenque declaradas Patrimonio Mundial y las cascadas turquesas de Agua Azul. Un día completo de historia y naturaleza.",
+      "imagen": "https://picsum.photos/seed/temple-ruins/800/600",
+      "precio": 850,
+      "moneda": "MXN",
+      "duracion": "Todo el día",
+      "nivel": "Moderado",
+      "whatsapp": "529671234567",
+      "reservaUrl": ""
+    },
+    {
+      "id": "tour-chamula",
+      "nombre": "San Juan Chamula",
+      "descripcion": "El pueblo más místico de Chiapas. Conoce su iglesia sincrética única en el mundo, donde la religión maya y el catolicismo se fusionan en un ritual que solo existe aquí.",
+      "imagen": "https://picsum.photos/seed/nature-pine/800/600",
+      "precio": 380,
+      "moneda": "MXN",
+      "duracion": "3 horas",
+      "nivel": "Fácil",
+      "whatsapp": "529671234567",
+      "reservaUrl": ""
+    }
+  ],
+  "transporte": {
+    "taxi": [
+      {
+        "nombre": "Taxi del Centro",
+        "descripcion": "Taxis seguros disponibles en el zócalo las 24 horas. Tarifa fija dentro de la zona centro.",
+        "precio": "$30–$60 MXN",
+        "telefono": "+52 967 678 9012",
+        "icono": "car"
+      }
+    ],
+    "aeropuerto": [
+      {
+        "nombre": "Transfer al Aeropuerto TGZ",
+        "descripcion": "Van privada al Aeropuerto Ángel Albino Corzo de Tuxtla Gutiérrez. Reservar con 24 horas de anticipación.",
+        "precio": "$800 MXN",
+        "whatsapp": "529671234567",
+        "icono": "plane"
+      }
+    ],
+    "otros": [
+      {
+        "nombre": "Colectivos a Tuxtla",
+        "descripcion": "Salidas cada 30 minutos desde la terminal de Cristóbal Colón. Viaje de 1.5 horas por carretera panorámica.",
+        "precio": "$70 MXN",
+        "icono": "bus"
+      }
+    ]
+  },
+  "restaurantes": [
+    {
+      "id": "rest-tierra",
+      "nombre": "Tierra y Cielo",
+      "descripcion": "Cocina chiapaneca contemporánea con los mejores ingredientes locales. Imperdible el cochito horneado y el pozol de cacao.",
+      "imagen": "https://picsum.photos/seed/restaurant-food/800/600",
+      "calificacion": 4.8,
+      "direccion": "Real de Guadalupe 7, Centro",
+      "googleMapsUrl": "https://maps.google.com/?q=Restaurante+Tierra+y+Cielo+San+Cristobal"
+    },
+    {
+      "id": "rest-fogon",
+      "nombre": "El Fogón de Jovel",
+      "descripcion": "Restaurante tradicional chiapaneco desde 1988. Tamales de chipilín, sopa de pan y mole chiapaneco en ambiente colonial auténtico.",
+      "imagen": "https://picsum.photos/seed/restaurant-traditional/800/600",
+      "calificacion": 4.6,
+      "direccion": "16 de Septiembre 11, Centro",
+      "googleMapsUrl": "https://maps.google.com/?q=El+Fogon+de+Jovel+San+Cristobal"
+    }
+  ],
+  "cafeterias": [
+    {
+      "id": "cafe-altura",
+      "nombre": "Café de Altura",
+      "descripcion": "El mejor café chiapaneco de altura. Variedades de origen, métodos de filtrado y acompañamientos artesanales locales.",
+      "imagen": "https://picsum.photos/seed/coffee-shop/800/600",
+      "calificacion": 4.9,
+      "direccion": "Andador Turístico 23, Centro",
+      "googleMapsUrl": "https://maps.google.com/?q=Cafe+de+Altura+San+Cristobal"
+    },
+    {
+      "id": "cafe-museo",
+      "nombre": "Café Museo Café",
+      "descripcion": "Cafetería del museo del café chiapaneco. Aprende sobre el proceso del café mientras disfrutas una taza de especialidad.",
+      "imagen": "https://picsum.photos/seed/coffee-museum/800/600",
+      "calificacion": 4.7,
+      "direccion": "Ma. Adelina Flores 10, Centro",
+      "googleMapsUrl": "https://maps.google.com/?q=Cafe+Museo+Cafe+San+Cristobal"
+    }
+  ],
+  "supermercados": [
+    {
+      "id": "super-chedraui",
+      "nombre": "Chedraui San Cristóbal",
+      "descripcion": "Supermercado completo con farmacia, panadería y electrónica. Abierto 7:00 am – 11:00 pm. A 15 minutos en taxi.",
+      "imagen": "https://picsum.photos/seed/supermarket/800/600",
+      "direccion": "Blvd. Juan Sabines s/n, San Cristóbal",
+      "googleMapsUrl": "https://maps.google.com/?q=Chedraui+San+Cristobal+de+Las+Casas"
+    }
+  ],
+  "farmacias": [
+    {
+      "id": "farmacia-ahorro",
+      "nombre": "Farmacia del Ahorro",
+      "descripcion": "Abierta 24 horas. Medicamentos genéricos y de marca. Consulta médica disponible de 8am a 10pm.",
+      "imagen": "https://picsum.photos/seed/pharmacy/800/600",
+      "direccion": "Real de Guadalupe 45, Centro",
+      "googleMapsUrl": "https://maps.google.com/?q=Farmacia+del+Ahorro+San+Cristobal"
+    }
+  ],
+  "hospitales": [
+    {
+      "id": "hospital-general",
+      "nombre": "Hospital General de San Cristóbal",
+      "descripcion": "Hospital público con urgencias 24 horas. Especialidades básicas disponibles.",
+      "imagen": "https://picsum.photos/seed/hospital/800/600",
+      "direccion": "Insurgentes s/n, San Cristóbal",
+      "googleMapsUrl": "https://maps.google.com/?q=Hospital+General+San+Cristobal+de+Las+Casas"
+    }
+  ],
+  "lugaresTuristicos": [
+    {
+      "id": "lugar-andador",
+      "nombre": "Andador Turístico",
+      "descripcion": "La calle peatonal más famosa de la ciudad. Arte, artesanías, gastronomía y vida cultural concentrada en el corazón colonial de San Cristóbal.",
+      "imagen": "https://picsum.photos/seed/andador-street/800/600",
+      "calificacion": 4.9,
+      "direccion": "Real de Guadalupe, Centro Histórico",
+      "googleMapsUrl": "https://maps.google.com/?q=Andador+Turistico+San+Cristobal",
+      "distancia": "10 min caminando",
+      "tiempoVisita": "2–4 horas"
+    },
+    {
+      "id": "lugar-na-bolom",
+      "nombre": "Na Bolom — Museo y Casa",
+      "descripcion": "Centro cultural dedicado a la cultura lacandona. Jardín botánico, galería y biblioteca sobre los pueblos indígenas de Chiapas.",
+      "imagen": "https://picsum.photos/seed/museum-house/800/600",
+      "calificacion": 4.7,
+      "direccion": "Vicente Guerrero 33, Barrio del Cerrillo",
+      "googleMapsUrl": "https://maps.google.com/?q=Na+Bolom+San+Cristobal",
+      "distancia": "15 min caminando",
+      "tiempoVisita": "1–2 horas"
+    }
+  ],
+  "eventosLocales": [
+    {
+      "id": "evento-festival",
+      "nombre": "Festival Cultural de San Cristóbal",
+      "descripcion": "Danza, música tradicional tzotzil y tzeltal, gastronomía chiapaneca y artesanías. El evento cultural más importante del año.",
+      "imagen": "https://picsum.photos/seed/festival-culture/800/600",
+      "fecha": "Enero 2025",
+      "lugar": "Parque Central Miguel Hidalgo",
+      "gratis": true
+    },
+    {
+      "id": "evento-cafe",
+      "nombre": "Expo Café Chiapas",
+      "descripcion": "La feria del café más importante del sureste mexicano. Productores locales, catas, talleres y venta directa de café de altura.",
+      "imagen": "https://picsum.photos/seed/coffee-expo/800/600",
+      "fecha": "Noviembre 2025",
+      "lugar": "Explanada Municipal",
+      "gratis": false,
+      "precio": "$50 MXN"
+    }
+  ],
+  "faq": [
+    {
+      "id": "faq-1",
+      "pregunta": "¿Puedo hacer late check-out?",
+      "respuesta": "El late check-out está sujeto a disponibilidad. Contáctanos con 24 horas de anticipación. El costo es de $150 MXN por hora adicional."
+    },
+    {
+      "id": "faq-2",
+      "pregunta": "¿Dónde puedo estacionarme?",
+      "respuesta": "El estacionamiento más cercano y seguro está a 2 cuadras, en el centro comercial. Costo aproximado $50 MXN por día."
+    },
+    {
+      "id": "faq-3",
+      "pregunta": "¿Tienen servicio de limpieza durante la estancia?",
+      "respuesta": "El servicio de limpieza completo se realiza al finalizar tu estancia. Si necesitas limpieza intermedia contáctanos, tiene un costo de $200 MXN."
+    },
+    {
+      "id": "faq-4",
+      "pregunta": "¿La cabaña tiene calefacción? Escuché que San Cristóbal es muy frío.",
+      "respuesta": "Sí, absolutamente. Contamos con calefactor eléctrico y cobijas de lana extra para noches muy frías. La temperatura puede bajar a 5°C en invierno."
+    },
+    {
+      "id": "faq-5",
+      "pregunta": "¿Cómo puedo dejar una reseña?",
+      "respuesta": "Puedes dejarnos una reseña en Google Maps o en Airbnb. Los botones están en la sección de Reseñas de esta guía. ¡Nos ayuda mucho!"
+    }
+  ],
+  "redesSociales": {
+    "instagram": "https://instagram.com/cabana.serendipia",
+    "facebook": "https://facebook.com/cabanaSerendipia",
+    "tiktok": "https://tiktok.com/@cabanaSerendipia"
+  },
+  "googleReviewsUrl": "https://g.page/r/review-placeholder",
+  "airbnbUrl": "https://airbnb.com/rooms/placeholder",
+  "modulosActivos": {
+    "wifi": true,
+    "contacto": true,
+    "reglamento": true,
+    "ubicacion": true,
+    "checkinout": true,
+    "tours": true,
+    "transporte": true,
+    "restaurantes": true,
+    "cafeterias": true,
+    "supermercados": false,
+    "farmacias": true,
+    "hospitales": true,
+    "lugaresTuristicos": true,
+    "eventos": false,
+    "galeria": true,
+    "clima": true,
+    "resenas": true,
+    "faq": true,
+    "redesSociales": true
+  }
+}
